@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.App{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-auto-flow: 100vh;
+}
+
+.Nav{
+    background-color: rgb(5, 201, 5);
+    grid-column: 1 / 2;
+}
+
+.Main{
+    background-color: #efefef;
+    grid-column: 2 / 3;
+}
