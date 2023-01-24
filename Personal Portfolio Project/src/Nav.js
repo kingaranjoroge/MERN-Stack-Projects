@@ -5,8 +5,8 @@ const Nav = () => {
   return (
     <nav className='Nav'>
       <img src="" alt="" />
-      <h3>Brian Njoroge</h3>
-      <ul className='SocialPlatforms'>
+      <h2>Brian Njoroge</h2>
+      <ul className='SocialMediaPlatforms'>
         <li><Link to=''>Twitter</Link></li>
         <li><Link to=''>Facebook</Link></li>
         <li><Link to=''>Instagram</Link></li>
